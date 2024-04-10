@@ -1,0 +1,98 @@
+.contenedor {
+    margin-top: 100px;
+    display: flex;
+    padding-left: 25px;
+}
+
+.text {
+    padding-left: 25px;
+}
+
+.btn {
+    background-color: cornflowerblue;color: white;
+    padding: 7;
+    display: inline-block;
+    border-radius: 20%;
+    font-size: 18px;
+
+}
+
+* {
+    font-family: Arial, Helvetica, sans-serif
+}
+
+.border{
+   border-style: groove;
+   margin: 30px 200px;
+}
+
+.contenedor-imagenes{
+    display: flex;
+    flex-direction: row;
+}
+
+.pequeñas{
+    display: flex;
+    flex-direction: column;
+}/*  se ocupa para odificar los bordes no la imagen */
+.pequeñas img{
+    padding: 10px;
+    border: 1px solid grey;
+    margin: 10px;
+    border-radius: 15px;
+}
+.grande img{
+    border: 1px solid grey;
+    border-radius: 15px;
+}
+.detalle{
+    font-size:18px;
+    color: black;
+
+}
+.precio{
+    font-size: 25px;
+    color:black
+}
+.preciolt{
+    font-size: 15px;
+    color:gray
+}
+.detalle1{
+    font-size: 15px;
+    color: black;
+}
+.codigo{
+    font-size: 15px;
+    color: black;
+}
+.marca{
+    font-size: 15px;
+    color: black;
+}
+.envase{
+    font-size: 15px;
+    color: black;
+}
+.pais{
+    font-size: 15px;
+    color: black;
+}
+.estado{
+    font-size: 15px;
+    color: black;
+}
+.contenedor-bordes{
+    background-color: white;
+    text-align: left;
+    padding: 50px;
+    border-radius: 30px;
+    margin:200px;
+}
+.contenedor-bordes1{
+    background-color: white;
+    text-align: left;
+    padding: 50px;
+    border-radius: 30px;
+    margin:-100px 200px;
+}
